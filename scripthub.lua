@@ -11,14 +11,9 @@ KeyGuardian:Set({
 
 -- ServiceToken = publicToken
 -- APIToken = privateToken
-if getgenv().KeyGuard and not getgenv().KeyGuard == nil then
-    print("Key exists! Value:", getgenv().KeyGuard)
-else
-    print("Key does not exist.")
-    while true do end  -- This will freeze execution
+if not getgenv().KeyGuard then
+    print("no worky :(")
 end
-
-
 print(KeyGuardian:GetKeylink())
 
 -- DO NOT CHANGE ANYTHING UNDER THIS, ONLY CHANGE THE LINE "-- put your script here"!!!!!!
