@@ -17,6 +17,7 @@ end
 print(KeyGuardian:GetKeylink())
 
 Key = getgenv().KeyGuard
+print(tostring(Key))
 
 -- DO NOT CHANGE ANYTHING UNDER THIS, ONLY CHANGE THE LINE "-- put your script here"!!!!!!
 -- DO NOT CHANGE ANYTHING UNDER THIS, ONLY CHANGE THE LINE "-- put your script here"!!!!!!
