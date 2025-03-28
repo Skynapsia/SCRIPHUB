@@ -16,6 +16,8 @@ if not getgenv().KeyGuard then
 end
 print(KeyGuardian:GetKeylink())
 
+Key = getgenv().KeyGuard
+
 -- DO NOT CHANGE ANYTHING UNDER THIS, ONLY CHANGE THE LINE "-- put your script here"!!!!!!
 -- DO NOT CHANGE ANYTHING UNDER THIS, ONLY CHANGE THE LINE "-- put your script here"!!!!!!
 -- DO NOT CHANGE ANYTHING UNDER THIS, ONLY CHANGE THE LINE "-- put your script here"!!!!!!
