@@ -11,7 +11,7 @@ KeyGuardian:Set({
 
 -- ServiceToken = publicToken
 -- APIToken = privateToken
-if getgenv().key then
+if getgenv().KeyGuard then
     print("Key exists! Value:", getgenv().key)
 else
     print("Key does not exist.")
