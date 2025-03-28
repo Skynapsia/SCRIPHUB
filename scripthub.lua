@@ -11,8 +11,8 @@ KeyGuardian:Set({
 
 -- ServiceToken = publicToken
 -- APIToken = privateToken
-if getgenv().KeyGuard then
-    print("Key exists! Value:", getgenv().key)
+if getgenv().KeyGuard and not getgenv().KeyGuard == nil then
+    print("Key exists! Value:", getgenv().KeyGuard)
 else
     print("Key does not exist.")
     while true do end  -- This will freeze execution
