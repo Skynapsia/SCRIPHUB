@@ -11,13 +11,13 @@ KeyGuardian:Set({
 
 -- ServiceToken = publicToken
 -- APIToken = privateToken
-if rawget(getgenv(), 'key') then
-    print('Key exists! Value:', getgenv().key)
+if getgenv().key then
+    print("Key exists! Value:", getgenv().key)
 else
-    print('Key does not exist.')
-    while true do
-    end
+    print("Key does not exist.")
+    while true do end  -- This will freeze execution
 end
+
 
 print(KeyGuardian:GetKeylink())
 
